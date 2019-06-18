@@ -1,52 +1,46 @@
 body {
-        background-color: #111111;
-        color: #eeeeee;
-        font-family: 'Inconsolata', monospace;
-        padding: 0;
-        margin: 0;
+        font-family: "Raleway", Sans-Serif;
+        border-style: solid;
+        border-color: black;
+        border-width: 0px;
+        padding: 0px;
+        margin: 0px;
+        background-color: #ffffff;
+        color: #000000;
 }
 
-
-p {
-        padding: 0;
-        margin: 0;
+div {
+        width: 100%;
 }
 
-span {
-        padding: 0 0 0 0;
-        margin: 0 0 0 0;
-        border: 0px;
+ul {
+        width: 100%;
+        list-style-type: disc;
 }
 
-span.host {
-        color: #00ff00;
-        font-weight: bold;
+@media screen and (min-width: 801px) {
+        div#content {
+                width: 800px;
+                margin: auto;
+        }
 }
 
-span.user {
-        color: #00ff00;
-        font-weight: bold;
+@media screen and (max-width: 800px) {
+        div#content {
+                width: 100%;
+        }
 }
 
-span.prompt {
-        font-weight: bold;
-}
-span.col {
-        font-weight: bold;
+div#top {
+        text-align: center;
+        padding: 5px
 }
 
-span.directory {
-        color: #4444ff;
-        font-weight: bold;
+h2 {
+        padding-left: 5px;
 }
 
-
-a {
-        color: #4444ff;
-        text-decoration: none;
-        font-weight: bold;
-}
-span.item {
+.list {
+        width: 600px;
 
 }
-
